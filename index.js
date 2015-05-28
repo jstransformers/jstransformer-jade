@@ -5,17 +5,10 @@ var fs   = require('fs');
 
 exports.name = 'jade';
 exports.outputFormat = 'html';
-exports.compile = function (source, options) {
-  var fn = jade.compile(source, options);
-  return {fn: fn, dependencies: fn.dependencies}
-};
-exports.compileClient = function (source, options) {
-  return jade.compileClientWithDependenciesTracked(source, options);
-};
-exports.compileFile = function (path, options) {
-  var fn = jade.compileFile(path, options);
-  return {fn: fn, dependencies: fn.dependencies}
-};
+
+exports.compile = jade.compile;
+exports.compileClient = jade.compileClientWithDependenciesTracked;
+exports.compileFile = jade.compileFile;
 exports.compileFileClient = function (path, options) {
   // There is no compileFileClientWithDependenciesTracked so gotta do it
   // manually.

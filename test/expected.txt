@@ -1,0 +1,1 @@
+<p>Hello from included.jade</p><p>Hello from input.txt</p><small>Brought to you by jstransformer-jade</small>
