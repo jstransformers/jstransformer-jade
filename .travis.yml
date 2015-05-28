@@ -6,11 +6,7 @@ node_js:
   - "0.12"
   - "iojs"
 
-<<<<<<< HEAD
-after_success: npm run coveralls
-=======
 after_success:
   - npm run coverage
   - npm i coveralls
   - cat ./coverage/lcov.info | coveralls
->>>>>>> 5781dfcd9f8aa4c22b91e3f619c9759bf57ad625
