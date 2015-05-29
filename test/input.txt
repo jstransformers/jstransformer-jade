@@ -1,3 +1,3 @@
 include included.jade
-p Hello from parent.jade
+p Hello from input.txt
 small Brought to you by #{name}
