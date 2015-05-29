@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+    "url": "https://github.com/jstransformers/jstransformer-jade.git"
   },
   "author": "Timothy Gu <timothygu99@gmail.com>",
   "license": "MIT"
