@@ -1,5 +1,7 @@
 # jstransformer-jade
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-jade.svg)](https://greenkeeper.io/)
+
 [Jade](http://jade-lang.com) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jade/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jade)
