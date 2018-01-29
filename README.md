@@ -7,6 +7,7 @@
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jade/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jade)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-jade/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-jade)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-jade/master.svg)](http://david-dm.org/jstransformers/jstransformer-jade)
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-jade.svg)](https://greenkeeper.io/)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-jade.svg)](https://www.npmjs.org/package/jstransformer-jade)
 
 ## Installation
