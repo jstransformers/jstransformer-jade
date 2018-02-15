@@ -17,7 +17,7 @@
 ## API
 
 ```js
-var jade = require('jstransformer')(require('jstransformer-jade'));
+var jade = require('jstransformer')(require('jstransformer-jade'))
 
 jade.render('h1 Hello World!').body
 //=> '<h1>Hello World!</h1>'
