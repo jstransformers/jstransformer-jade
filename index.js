@@ -12,9 +12,11 @@ exports.compile = function (source, options) {
     dependencies: fn.dependencies
   }
 }
+
 exports.compileClient = function (source, options) {
   return jade.compileClientWithDependenciesTracked(source, options)
 }
+
 exports.compileFile = function (path, options) {
   const fn = jade.compileFile(path, options)
   return {
@@ -22,6 +24,7 @@ exports.compileFile = function (path, options) {
     dependencies: fn.dependencies
   }
 }
+
 exports.compileFileClient = function (path, options) {
   const fs = require('fs')
 
