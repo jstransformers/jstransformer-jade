@@ -2,7 +2,7 @@
 
 > **DEPRECATED**: Use [jstransformer-pug](https://github.com/jstransformers/jstransformer-pug).
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-jade.svg)](https://greenkeeper.io/)
+
 
 [Jade](http://jade-lang.com) support for [JSTransformers](http://github.com/jstransformers).
 
